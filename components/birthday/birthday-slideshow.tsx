@@ -179,8 +179,8 @@ export function BirthdaySlideshow() {
         {!hasStarted && <HeroIntro onStart={handleStart} />}
       </AnimatePresence>
 
-      {/* Birthday Greeting */}
-      <GreetingTitle isVisible={hasStarted && currentSlide === 0} />
+      {/* Birthday Greeting - shown on all slides */}
+      <GreetingTitle isFirstSlide={currentSlide === 0} isVisible={hasStarted} />
 
       {/* Slideshow */}
       {hasStarted && (
