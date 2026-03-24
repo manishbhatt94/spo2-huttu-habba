@@ -27,9 +27,9 @@ export function SlideControls({
       initial={{ opacity: 0 }}
       animate={{ opacity: isVisible ? 1 : 0 }}
       transition={{ duration: 0.3 }}
-      className="pointer-events-none absolute inset-x-0 bottom-24 z-20 flex items-center justify-center gap-4 px-4 sm:bottom-32"
+      className="pointer-events-none absolute inset-x-0 bottom-42 z-20 flex items-center justify-center gap-4 px-4 sm:bottom-52"
     >
-      <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-black/40 px-4 py-2 backdrop-blur-md">
+      <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-black/30 px-4 py-2 opacity-80 backdrop-blur-md">
         {/* Previous button */}
         <button
           onClick={onPrevious}
