@@ -69,7 +69,7 @@ export function HeroIntro({ onStart }: HeroIntroProps) {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="max-w-md text-[var(--cream)]/70 text-lg leading-relaxed"
         >
-          From the Mountains of Uttarakhand to the Plateau of Bengaluru
+          ಗೊಟ್ಟಿಗೆರೆ ಇಂದ - ಮನೀಷ್ ಬ್ರೋ 😅
         </motion.p>
 
         <motion.button

@@ -220,7 +220,7 @@ export function BirthdaySlideshow() {
           {/* Footer text */}
           <div className="pointer-events-none absolute bottom-16 left-0 right-0 z-20 text-center sm:bottom-20">
             <p className="text-xs text-white/40 sm:text-sm">
-              From the Mountains of Uttarakhand to the Plateau of Bengaluru
+              (ಗೂಗಲ್ ಜೆಮಿನಿ &reg; captions - 👻)
             </p>
           </div>
         </>
