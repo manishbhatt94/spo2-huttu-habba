@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display, Noto_Serif_Kannada } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import './globals.css'
 
 const inter = Inter({ 
@@ -63,6 +64,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} ${notoSerifKannada.variable} font-sans antialiased`}>
         {children}
         <Analytics />
+        <GoogleAnalytics gaId="G-H5EZ1J9BPE" />
       </body>
     </html>
   )
